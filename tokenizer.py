@@ -13,5 +13,5 @@ scanner=re.Scanner([
   (r"\s+", None), # None == skip token.
 ])
 
-results, remainder=scanner.scan("dsa@dsa.cd The (San) 9-2 Francisco-based mr. - 123. All variations tested")
+results, remainder=scanner.scan("dsa@dsa.cd Cat was well-behaved (named mr.Chris) 10-12 cm tall. All variations - tested")
 print results
